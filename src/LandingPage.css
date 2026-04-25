@@ -1,0 +1,843 @@
+.contain{
+    height: 480vh;
+    background-color:#FDF8F0;
+    overflow:hidden;
+}
+.nav{
+    background-color: #F7F0E3;
+    z-index: 1;
+    box-shadow: 0px 0px 4px 1px black;
+}
+Nav .NavLink{
+    font-size: 0.8rem;
+    color:rgb(106, 46, 4);
+    font-weight: 450;
+}
+.nav>.btn{
+    height:7vh;
+    border-radius: 1rem;
+    width:10vw;
+    background-color:#5c7a4e;
+    position: relative;
+    right:6vw;
+    font-size:small;
+}
+.nav>.btn:hover{
+    background-color: whitesmoke; 
+}
+
+@media(min-width:992px) and (max-width:1800px){
+    .nav>.btn{
+        width:12vw;
+        height:5vh;
+        position:relative;
+        left:-2vh;
+    }
+}
+.heroSection{
+    position: relative;
+    top:11vh;
+    width: 100vw;
+    height: 90vh;
+}
+#heroTitle{
+    background-color: #6682594a;
+    border:1px solid #5c7a4e;
+    border-radius:15px;
+    font-size: small;
+    padding:6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:relative;
+    right:35vw;
+    top:8vh;
+}
+.slogan{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top:12vh;
+    right:28vw;
+    line-height: normal;
+}
+.slogan2{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top:12vh;
+    right:38vw;
+    line-height: normal;
+}
+.slogan>span{
+    color:#5c7a4e;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    position: relative;
+    right:2vw;
+}
+#heroSummary{
+    position: relative;
+    top:15vh;
+    right:27vw;
+    color:burlywood;
+    font-size: smaller;
+    line-height: 30px;
+}
+.heroSection #requestButton{
+    background-color:#5c7a4e;
+    border-radius: 2rem;
+    width:20vw;
+    cursor: pointer;
+    position: relative;
+    top:20vh;
+    right:25vw;
+}
+.heroSection Button{
+    background-color:#FDF8F0;
+    color:burlywood;
+    border:none;
+    cursor: pointer;
+    position: relative;
+    top:20vh;
+    right:25vw;
+    font-size: medium;
+    font-weight: 450;
+}
+.heroSection Button:hover{
+    background-color: #FDF8F0;
+    color:burlywood;
+}
+#incubator{
+    width:66vw;
+    height:40vh;
+    position: relative;
+    bottom:10vh;
+    left:15vw;
+}
+@media (min-width:1913px) and (max-width:2500px){
+    #incubator{
+        position:relative;
+        left:11vh !important;
+    }
+    .heroSection #requestButton{
+    background-color:#5c7a4e;
+    border-radius: 2rem;
+    width:15vw !important;
+    cursor: pointer;
+    position: relative;
+    top:20vh;
+    right:1vw !important;
+}
+.heroSection Button{
+    background-color:#FDF8F0;
+    color:burlywood;
+    border:none;
+    cursor: pointer;
+    position: relative;
+    top:20vh;
+    right:0vw!important;
+    font-size: medium;
+    font-weight: 450;
+}
+ .slogan2{
+    position:relative;
+    right:34vw!important;
+ }   
+}
+@media(min-width:992px) and (max-width:1912px){
+    #incubator{
+    position:relative;
+    left:20vw;
+    bottom:4vh;
+    }
+    .heroSection #requestButton{
+    background-color:#5c7a4e;
+    border-radius: 2rem;
+    width:22vw;
+    cursor: pointer;
+    position: relative;
+    top:26vh;
+    right:22vw;
+}
+.heroSection Button{
+    background-color:#FDF8F0;
+    color:burlywood;
+    border:none;
+    cursor: pointer;
+    position: relative;
+    top:33vh;
+    right:44vw;
+    font-size: medium;
+    font-weight: 400;
+}
+}
+@media(min-width:768px)and (max-width:991px){
+
+#heroTitle{
+    background-color: #6682594a;
+    border:1px solid #5c7a4e;
+    border-radius:15px;
+    font-size: small;
+    padding:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:relative;
+    right:35vw;
+    top:8vh;
+}
+.slogan{
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top:12vh;
+    right:28vw;
+    line-height: normal;
+}
+#heroSummary{
+    position: relative;
+    top:15vh;
+    right:27vw;
+    color:burlywood;
+    font-size: 0.7rem;
+    line-height: 22px;
+}
+.heroSection #requestButton{
+    background-color:#5c7a4e;
+    border-radius: 2rem;
+    width:22vw;
+    cursor: pointer;
+    position: relative;
+    top:27vh;
+    right:22vw;
+}
+.heroSection Button{
+    background-color:#FDF8F0;
+    color:burlywood;
+    border:none;
+    cursor: pointer;
+    position: relative;
+    top:27vh;
+    right:20vw;
+    font-size: medium;
+    font-weight: 400;
+}
+#incubator{
+    width:55vw;
+    height:40vh;
+    position: relative;
+    bottom: 10vh!important;;
+    left:24vw;
+}
+}
+@media(min-width:576px)and (max-width:767px){
+
+#heroTitle{
+    background-color: #6682594a;
+    border:1px solid #5c7a4e;
+    border-radius:15px;
+    font-size: smaller;
+    padding:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:relative;
+    right:27vw;
+    top:8vh;
+}
+.slogan{
+    font-size: 3.3rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top:12vh;
+    right:5vw;
+    line-height: normal;
+}
+.slogan2{
+    font-size: 3.3rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top:12vh;
+    right:20vw;
+    line-height: normal;
+}
+#heroSummary{
+    position: relative;
+    top:15vh;
+    right:6vw;
+    color:burlywood;
+    font-size: 0.8rem;
+    line-height: 24px;
+}
+.heroSection #requestButton{
+    background-color:#5c7a4e;
+    border-radius: 2rem;
+    width:30vw;
+    cursor: pointer;
+    position: relative;
+    top:52vh;
+    right:12vw;
+}
+.heroSection Button{
+    background-color:#FDF8F0;
+    color:burlywood;
+    border:none;
+    cursor: pointer;
+    position: relative;
+    top:50vh;
+    right:10vw;
+    font-size: medium;
+    font-weight: 400;
+}
+#incubator{
+    width:55vw;
+    height:40vh;
+    position: relative;
+    top:6vh;
+    left:0vw;
+}
+}
+@media(min-width:300px)and (max-width:575px){
+
+#heroTitle{
+    background-color: #6682594a;
+    border:1px solid #5c7a4e;
+    border-radius:15px;
+    font-size: small;
+    padding:6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:relative;
+    right:15vw;
+    top:8vh;
+}
+.slogan{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: normal;
+}
+.slogan2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: normal;
+}
+.sloganContainer{
+    position:relative;
+    left:10vh;
+}
+#heroSummary{
+    position: relative;
+    top:15vh;
+    right:0vw;
+    color:burlywood;
+    font-size: 0.65rem;
+    line-height: 18px;
+}
+.heroSection #requestButton{
+    background-color:#5c7a4e;
+    border-radius: 2rem;
+    width:40vw;
+    cursor: pointer;
+    position: relative;
+    top:50vh;
+    font-size: 0.7rem;
+    right:4vw;
+}
+.heroSection Button{
+    background-color:#FDF8F0;
+    color:burlywood;
+    border:none;
+    cursor: pointer;
+    position: relative;
+    top:50vh;
+    right:0vw;
+    font-size: x-small;
+    font-weight: 400;
+}
+#incubator{
+    width:65vw;
+    height:45vh;
+    position: relative;
+    top:4vh;
+    left:0vw;
+}
+}
+                                                            /*Problem Sec*/
+.problemSection{
+    width:100vw;
+    height:123vh;
+    background-color: #2C1A0E;
+    position:relative;
+    top:11vh;
+}
+#challange{
+    color:burlywood;
+    position:relative;
+    right:15vw;
+    top:5vh;
+}
+#ProblemHead{
+    color:#F7F0E3;
+    font-family: 'Times New Roman', Times, serif;
+}
+#problemSummury{
+    color:#f4dfb8;
+}
+.problemCard{
+    width:15vw;
+    height:28vh;
+    background-color: #f4dfb82f;
+}
+.problemCard{
+    position:relative;
+    bottom:45vh !important;
+    left:10vw;
+}
+.headerProblemCard{
+    color:burlywood;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.cardBody{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+@media(min-width:1400px)and (max-width:3500px){
+#ProblemHead{
+    color:#F7F0E3;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    top:5vh;
+}
+#problemSummury{
+    color:#f4dfb8;
+    position:relative;
+    top:5vh;
+}
+.problemCard{
+    width:15vw;
+    height:28vh;
+    background-color: #f4dfb82f;
+    position:relative;
+    top:-8vh;
+}
+}
+@media(min-width:992px)and (max-width:1399px){
+#ProblemHead{
+    color:#F7F0E3;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    top:5vh;
+}
+#problemSummury{
+    color:#f4dfb8;
+    position:relative;
+    top:5vh;
+}
+.problemCard{
+    width:15vw;
+    height:28vh;
+    background-color: #f4dfb82f;
+    position:relative;
+    bottom: 15vh !important;;
+}
+}
+@media(min-width:768px)and (max-width:991px){
+#ProblemHead{
+    color:#F7F0E3;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    top:5vh;
+}
+#problemSummury{
+    color:#f4dfb8;
+    position:relative;
+    top:7vh;
+}
+.problemCard{
+    width:15vw;
+    height:28vh;
+    background-color: #f4dfb82f;
+    position:relative;
+    bottom: 10vh !important;;
+}
+}
+@media(min-width:576px)and (max-width:767px){
+#ProblemHead{
+    color:#F7F0E3;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    top:5vh;
+    left:20vw;
+}
+#problemSummury{
+    color:#f4dfb8;
+    position:relative;
+    top:4vh;
+    left:20vw;
+}
+.problemCard{
+    width:28vw;
+    height:18vh;
+    background-color: #f4dfb82f;
+    position:relative;
+    top:7vh !important;
+    left:-30vw!important;
+}
+}
+@media(min-width:0px)and (max-width:576px){
+    #challange{
+    color:burlywood;
+    position:relative;
+    right:7vw;
+    top:5vh;
+}
+#ProblemHead{
+    color:#F7F0E3;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    top:5vh;
+    left:20vw;
+}
+#problemSummury{
+    color:#f4dfb8;
+    font-size:x-small;
+    position:relative;
+    top:4vh;
+    left:20vw;
+}
+.problemCard{
+    width:35vw;
+    height:25vh;
+    background-color: #f4dfb82f;
+    position:relative;
+    top:7vh !important;
+    left:-30vw!important;
+}
+}
+                                                    /*Solution Sec*/
+.solutionSection{
+    width:100vw;
+    height:120vh;
+    position:relative;
+    top:11vh;
+}
+.solutionQuete{
+    position:relative;
+    top:25vh;
+    left:12vw;
+    background-color: #5c7a4e6b;
+    width:35vw;
+    height:50vh;
+    border-radius:0px 50px 0px 30px ;
+ }
+ .solutionQuete h6{
+    font-size:x-large;
+    position:relative;
+    top:10vh;
+    left:0vw;
+    font-family: cursive
+ }
+ .solutionQuete p{
+    font-size:small;
+    position:relative;
+    top:15vh;
+    left:10vw;
+    font-weight: bold;
+    color:lightcyan;
+ }
+.solutionSteps>p{
+    color:#5c7a4e;
+    font-weight: 400;
+    position:relative;
+    top:12vh;
+    right:10vw;
+}
+.solutionSteps h2{
+    font-weight: bold;
+    text-align: start;
+    position:relative;
+    top:12vh;
+    left:8vw;
+}
+.solutionSteps h2 span{
+    font-weight: bold;
+    position:relative;
+    color:#5c7a4e;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.solutionSteps #point{
+    position: relative;
+    top:8vw!important;
+    left:8vw;
+    font-weight: bold;
+    text-align: start;
+}
+.solutionSteps #point+p{
+    position: relative;
+    width:35vw;
+    text-align: start;
+    color:burlywood;
+    top:6vw!important;
+    left:10vw;
+    font-size: medium;
+}
+@media(min-width:1400px)and (max-width:3500px){
+.solutionSteps>p{
+    color:#5c7a4e;
+    font-weight: 400;
+    position:relative;
+    top:12vh;
+    right:14vw;
+}
+.solutionSteps h2{
+    font-weight: bold;
+    position:relative;
+    top:11vh;
+    right:4vw;
+}
+.solutionSteps #point{
+    position: relative;
+    top:5vw;
+    left:8vw;
+    font-weight: bold;
+    text-align: start;
+}
+.solutionSteps #point+p{
+    position: relative;
+    width:35vw;
+    text-align: start;
+    color:burlywood;
+    top:5vw;
+    left:10vw;
+    font-size: medium;
+}
+}
+@media(min-width:992px)and (max-width:1399px){
+.solutionSteps #point{
+    position: relative;
+    top:10vw!important;
+    left:8vw;
+    font-weight: bold;
+    text-align: start;
+}
+.solutionSteps #point+p{
+    position: relative;
+    width:35vw;
+    text-align: start;
+    color:burlywood;
+    top:9vw!important;
+    left:10vw;
+    font-size: medium;
+}
+}
+@media(min-width:768px)and (max-width:991px){
+.solutionQuete p{
+    font-size:small;
+    position:relative;
+    top:15vh;
+    left:6vw;
+    font-weight: bold;
+    color:lightcyan;
+ }
+ .solutionSteps h2{
+    font-weight: bold;
+    font-size: 1.6rem;
+    position:relative;
+    top:11vh;
+    right:4vw;
+}
+.solutionSteps #point{
+    position: relative;
+    top:14vw!important;
+    left:8vw;
+    font-weight: bold;
+    text-align: start;
+}
+.solutionSteps #point+p{
+    position: relative;
+    width:35vw;
+    text-align: start;
+    color:burlywood;
+    top:13vw!important;
+    left:10vw;
+    font-size: medium;
+}
+}
+@media(min-width:576px)and (max-width:767px){
+.solutionQuete{
+    position:relative;
+    top:40vh;
+}
+.solutionQuete p{
+    font-size:x-small;
+    position:relative;
+    top:15vh;
+    left:6vw;
+    font-weight: bold;
+    color:lightcyan;
+ }
+ .solutionSteps h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    position:relative;
+    top:11vh;
+    left:3vw!important;
+}
+.solutionSteps #point{
+    position: relative;
+    top:16vw!important;
+    font-size: 0.8rem;
+    left:2vw;
+    font-weight: bold;
+    text-align: start;
+}
+.solutionSteps #point+p{
+    position: relative;
+    width:35vw;
+    text-align: start;
+    color:burlywood;
+    top:15vw!important;
+    left:10vw;
+    font-size: 0.76rem;
+}
+}
+@media(min-width:0px)and (max-width:576px){
+.solutionSection{
+        height:150vh;
+    }
+.solutionQuete{
+    position:relative;
+    top:5vh;
+    left:6vw;
+    width:60vw;
+}
+    .solutionQuete p{
+    font-size:small;
+    position:relative;
+    top:15vh;
+    left:6vw;
+    font-weight: bold;
+    color:lightcyan;
+ }
+ .solutionSteps>p{
+    font-size: 1rem;
+    position:relative;
+    top:10vh;
+    left:4vw;
+ }
+ .solutionSteps{
+    position:relative;
+    top:55vh;
+   right:50vw;
+ }
+
+ .solutionSteps h2{
+    font-weight: bold;
+    font-size: 2rem;
+    position:relative;
+    top:11vh;
+    right:4vw;
+    width:90vw!important;
+}
+.solutionSteps #point{
+    position: relative;
+    top:26vw!important;
+    left:8vw;
+    font-weight: bold;
+    text-align: start;
+    width:90vw;
+}
+.solutionSteps #point+p{
+    position: relative;
+    width:35vw;
+    text-align: start;
+    color:burlywood;
+    top:25vw!important;
+    left:10vw;
+    font-size: medium;
+    width:70vw;
+}
+}
+                                        /*Features Section*/
+.featuresSection{
+    width: 100vw;
+    height:120vh;
+    background-color: #f8eddc;
+    position: relative;
+    top:5vw!important;
+}
+.featuresSection>p{
+    font-size: 0.75rem;
+    font-weight: bold;
+    color:#5c7a4e;
+    position: relative;
+    top:5vw!important;
+}
+.featuresSection>h6{
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    top:5vw!important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.featuresSection>h6>span{
+   color:#5c7a4e;
+}
+.featuresCard{
+    position: relative;
+    top: 12vh;
+    margin-bottom: 5vh;
+}
+.featuresCardHead{
+    font-size: 1rem;
+    font-weight: 500;
+    color:#2C1A0E;
+}
+.featuresCardBody{
+    font-size:0.7rem;
+    font-weight: 400;
+    color:darkgrey;
+}
+                                                /*Footer*/
+.footer {
+  background-color: #2C1A0E;
+  color: #fff;
+  padding: 20px 40px;
+  paddint-top:10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.footer-left h2 {
+  margin: 0;
+}
+
+.footer-left p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-right p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-right {
+    margin-top: 15px;
+  }
+}
