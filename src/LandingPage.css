@@ -803,41 +803,49 @@ Nav .NavLink{
     color:darkgrey;
 }
                                                 /*Footer*/
-.footer {
-  background-color: #2C1A0E;
-  color: #fff;
-  padding: 20px 40px;
-  paddint-top:10px;
+.foot{
+    width:100vw;
+    height:50vh;
+    background-color: #2C1A0E;
+    position:absolute;
+    top:450vh;
 }
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap; 
+.foot>h5{
+    color:#f8eddc;
+    position: relative;
+    right:35vw;
+    top:8vh;
 }
-
-.footer-left h2 {
-  margin: 0;
+.foot>p{
+    color: #f4dfb8;
+    position: relative;
+    right:35vw;
+    top:8vh;
+    font-style: italic;
 }
-
-.footer-left p {
-  margin: 5px 0 0;
-  font-size: 14px;
-  color: #ccc;
+#contact>p{
+    color:white;
+    position: relative;
+    left:37vw;
 }
-
-.footer-right p {
-  margin: 5px 0;
-  font-size: 14px;
+.foot>.copyright{
+    position:relative;
+    top:12vh;
+    left:5vw;
+    font-size: x-small;
+    font-style: normal;
 }
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .footer-right {
-    margin-top: 15px;
-  }
+@media(min-width:576px)and(max-width:992px){
+.foot>p{
+    color: #f4dfb8;
+    position: relative;
+   left:13vw;
+    top:8vh;
+    font-style: italic;
+}
+.foot>#contact>p{
+    position: relative;
+    left:-67vw!important;
+    font-size: xx-small;
+}
 }

@@ -145,21 +145,19 @@ export default function Landingpage(){
                         </Card></Col>
                 </Row>
            </section>
-           <footer className="footer">
-  <div className="footer-container">
-    <div className="footer-left">
-      <h2>Sere Innovations</h2>
-      <p>Helping farmers hatch their own future</p>
-    </div>
-
-    <div className="footer-right">
-      <p><strong>Email:</strong> info@sereinnovations.com</p>
-      <p><strong>Phone:</strong> +91 9876543210</p>
-      <p><strong>Address:</strong> Meerut, Uttar Pradesh, India</p>
-    </div>
-
-  </div>
-</footer>
+           <footer>
+            <div className="foot">
+                <h5>Sere Innovations</h5>
+                <p>Helping farmers hatch their own future</p>
+                <div id="contact">
+                    <p><RiMailLine />adeebsaifi7711@gmail.com</p> 
+                    <p><RiPhoneLine />80XXXXXXXX</p> 
+                    <p><RiMapPinLine />UP India</p>                                                                                                                                                                                    
+                </div>
+                <div style={{width:"100%",border:"1px  solid lightgray",position:"relative",top:"10vh"}}></div>
+                <p className="copyright">© 2026 Sere Innovations. All rights reserved.</p>
+            </div>
+           </footer>
         </div>
         </>
          )
